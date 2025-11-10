@@ -1,0 +1,6 @@
+AO-DETR测试
+configs/dino/AO-DETR_r50_pixray.py  12 15 23
+
+改进方法测试
+configs/dino/AO-DETR-DM_r50_pixray.py 12 15 24
+
