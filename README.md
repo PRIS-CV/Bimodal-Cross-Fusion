@@ -22,7 +22,7 @@ The experiments were conducted on two prohibited item datasets, PIXray and OPIXr
 cd AO-DETR-DM
 python train.py --config configs/dino/AO-DETR-DM_r50_pixray.py --work-dir checkpoint/ao-detr_dm/r50_pixray/train/
 ```
-## 测试
+## Test
 Taking the test based on the PIXray dataset as an example, assuming the corresponding checkpoint path is checkpoint/ao-detr_dm/r50_pixray/train/epoch_12.pth, enter the following command in the terminal:
 ```
 python test.py --config configs/dino/AO-DETR-DM_r50_pixray.py --checkpoint checkpoint/ao-detr_dm/r50_pixray/train/epoch_12.pth
